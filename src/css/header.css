@@ -1,0 +1,53 @@
+header section {
+    display: inline-block;
+}
+
+header {
+    display: flex;
+    align-content: stretch;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1% 2%;
+    background-color: #6bbdf0;
+
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: #248ED3;
+}
+
+#name {
+    align-items: center;
+    text-align: center;
+}
+
+#links {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#links a {
+ padding: 10px;
+ font-size:x-large;
+}
+
+
+@media (min-width: 700px){
+    #links {
+        flex-direction: row;
+    }
+
+    header {
+        flex-direction: row;
+    }
+
+}
+
+a:link{
+    color: white;
+    
+}
+
+a:visited {
+    color: #cce9fd;
+}

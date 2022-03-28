@@ -1,0 +1,120 @@
+section #tagSelection {
+
+    border-color: #248ED3;
+    border-style: solid;
+    
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: white;
+    text-align: center;
+    width: fit-content;
+
+    background-color: #6bbdf0;
+}
+
+section #tagSelection section {
+    padding: 5px 10px;
+    margin: 5px 5px;
+}
+
+section #tagSelection section > label {
+    display: inline;
+}
+
+section #tagSelection section > ol {
+    display: inline;
+}
+
+
+section #tagSelection div > h2 {
+    text-align: center;
+}
+
+#languageList {
+    display: inline;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-block-start: 5px;
+    margin-block-end: 0px;
+
+}
+#fieldList {
+    display: inline;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-block-start: 5px;
+    margin-block-end: 0px;
+}
+#frameworkList {
+    display: inline;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-block-start: 5px;
+    margin-block-end: 0px;
+}
+#otherAreas {
+    display: inline;
+    list-style: none;
+    padding-inline-start: 0px;
+    margin-block-start: 5px;
+    margin-block-end: 0px;
+}
+
+#languageList li {
+    display: inline;
+    padding: 5px;
+}
+#fieldList li {
+    display: inline;
+    padding: 5px;
+}
+#frameworkList li {
+    display: inline;
+    padding: 5px;
+}
+#otherAreas li {
+    display: inline;
+    padding: 5px;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+@media (min-width: 1500px){
+    img {
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+
+button.tagIsSelected {
+    background-color: #46A6E5;
+    border-color: #248ED3;
+    color: white;
+    border-radius: 25px;
+    padding: 2px 8px;
+}
+
+button.tagNotSelected {
+    background-color: #cce9fd;
+    border-radius: 25px;
+    padding: 2px 8px;
+}
+
+li.tagIsSelected {
+    background-color: #46A6E5;
+    border-color: #248ED3;
+    color: white;
+    border-radius: 25px;
+    padding: 2px 8px;
+}
+
+li.tagNotSelected {
+    background-color: #cce9fd;
+    border-radius: 25px;
+    padding: 2px 8px;
+}

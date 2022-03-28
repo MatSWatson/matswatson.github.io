@@ -1,0 +1,80 @@
+
+.popupOuter {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #c7c7c79e;
+    display: flex;
+    align-items: top center;
+    justify-content: center;
+    padding: 2%;
+}
+
+.popupInner{
+    display: grid;
+    justify-content: center;
+    padding: 25px 25px;
+    max-width: 70%;
+    max-height: 80%;
+    color: black;
+    overflow: auto;
+
+    border-width: 10px;
+    border-style: ridge;
+    border-color: #248ED3;
+    background-color: #CCE9FD;
+    
+}
+
+.popupInner section {
+    max-width: fit-content;
+}
+
+#buttonSection {
+    max-width: initial;
+}
+
+.closebtn {
+    min-width: 20px;
+    min-height: 20px;
+    position: relative;
+    right: -97.5%;
+    
+}
+
+#imageSection {
+    justify-self: center;
+}
+
+.projectInfoImage {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+@media (min-width: 600px){
+    .projectInfoImage {
+        max-width: 300px;
+        max-height: 300px;
+       
+    }
+}
+
+@media (min-width: 800px){
+    .projectInfoImage {
+        max-width: 600px;
+        max-height: 600px;
+    }
+}
+
+.projectInfoText {
+    background-color: #6bbdf0;
+    padding: 10px;
+}
+
+#projectLink {
+    color: blue;
+    overflow-wrap: anywhere;
+}

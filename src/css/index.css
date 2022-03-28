@@ -1,0 +1,19 @@
+#homeForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10vh;
+}
+
+#moreHere {
+    background-color: #6bbdf0;
+    color: white;
+    border-radius: 25px;
+	font-size: x-large;
+    font-weight: bold;
+
+    min-width: 20vw;
+    width: max-content;
+    min-height: 5vw;
+    height: max-content;
+}

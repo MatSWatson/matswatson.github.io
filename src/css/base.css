@@ -1,0 +1,78 @@
+
+body {
+    margin: 0% 0%;
+    background-color: #cce9fd;
+    color: white;
+}
+
+.cardTagDiv {
+    max-width: fit-content;
+}
+
+.tags {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.tags li {
+    display: inline-block;
+    border-radius: 25px;
+	padding: 2px 8px;
+    margin: 4px 5px;
+	background-color: #cce9fd;
+	color: black;
+
+    border-width: 3px;
+    border-style: solid;
+    border-color: #248ED3;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+
+    border-style: ridge;
+    border-color: #248ED3;
+    border-width: thick;
+}
+
+@media (min-width: 1500px){
+    img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+}
+
+@media (min-width: 600px){
+    img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+
+
+
+section #projectCollection {
+    display: flex;
+    align-content: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 2%;
+    
+}
+
+section #projectCollection section {
+    display: inline-block;
+    background-color: #6bbdf0;
+    padding: 5px 20px;
+    margin: 10px 25px;
+
+    border-width: 10px;
+    border-style: ridge;
+    border-color: #248ED3;
+}
+
+
+
+
+
